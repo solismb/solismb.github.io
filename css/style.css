@@ -1,0 +1,157 @@
+body {
+	font-family: "Lucida Grande", "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", Meiryo;
+}
+
+#back {
+	width: 100%;
+	height: auto;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}		
+
+.head {
+	width: 100%;
+	height: auto;
+}
+
+.title {
+	width: 280px;
+	height: auto;
+	margin-top: 45px;
+	margin-left: 80px;
+}
+
+.head .title a {
+	text-decoration: none;
+}
+
+.head .title a:visited {
+	color: black;
+}								
+
+h1 {
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(0, 255, 100);
+	padding-bottom: 4px;
+}				
+
+}
+.links {
+	width: 100%;
+	height: auto;
+}
+.box {
+	width: 660px;
+	height: 100px;
+	margin: 295px auto 0;
+	display: block;
+}
+
+.links .box .button {
+	float: left;
+	width: 200px;
+	height: 96px;
+
+	border-bottom: 4px solid rgba(80, 240, 255, 0.6);
+
+	margin-left: 10px;
+	margin-right: 10px;
+    
+	text-align: center;
+	line-height: 100px;		
+}
+
+.links .box .button:hover {
+	background: -moz-linear-gradient(bottom, rgba(80, 240, 255, 0.6), #FFF);
+	background: -o-linear-gradient(bottom, rgba(80, 240, 255, 0.6), #FFF);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(80, 240, 255, 0.6)), color-stop(0.3, rgba(80, 240, 255, 0.3) ), to(white));
+}
+		
+.links .box .button a {
+	color: rgb(0, 100, 255);
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	font-size: x-large;
+}
+
+.profile {
+	width: 700px;
+	height: auto;
+	margin: auto;
+	display: block;	
+}
+
+.profile img {
+	margin-top: 60px	;
+	border: 1px solid blue;
+	padding: 4px;
+	background-color: #FFFFFF;
+	border-radius: 30px 30px 30px 30px;
+}
+
+.profile ul {
+	float: right;
+	width: 410px;
+	height: 250px;
+	margin-top: 60px;
+	display: inline;
+}
+
+.profile span {
+	margin-left: 100px;
+	line-height: 2em;
+	font-size: 25px;
+	letter-spacing: 0.3em;
+}		
+
+.profile li {
+	list-style-type: none;
+	width: auto;
+	height: auto;
+	line-height: 2em;
+}
+
+.pbox {
+	width: 320px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: 0px;
+	display: block;
+}
+
+.profile .pbox .back {
+	float: left;
+	width: 110px;
+	height: 50px;
+
+	background-color: rgba(80, 240, 255, 0.6);
+
+    margin-right: 20px;
+	margin-left: 30px;
+
+    text-align: center;
+	line-height: 50px;
+
+	border-radius: 7px 7px 7px 7px;
+
+	-moz-transition: background-color 220ms, linear;
+	-o-transition: background-color 220ms;
+	-webkit-transition: background-color 220ms, linear;
+}
+
+.profile .pbox .back:hover {
+	background-color: rgba(80, 240, 255, 0.3);
+}		
+
+.profile .pbox .back a {
+	color: rgb(100, 0, 110);
+	display: block;
+	text-decoration: none;
+}		
+
