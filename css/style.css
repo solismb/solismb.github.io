@@ -45,6 +45,21 @@ h1 {
 	width: 100%;
 	height: auto;
 }
+
+.kasu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sex {
+    color: red;
+}
+
+.sex:visited {
+    color: red;
+}
+
 .box {
 	width: 660px;
 	height: 100px;
@@ -63,7 +78,7 @@ h1 {
 	margin-right: 10px;
     
 	text-align: center;
-	line-height: 100px;		
+	line-height: 100px;
 }
 
 .links .box .button:hover {
