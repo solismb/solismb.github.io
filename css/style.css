@@ -46,20 +46,6 @@ h1 {
 	height: auto;
 }
 
-.kasu {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.sex {
-    color: red;
-}
-
-.sex:visited {
-    color: red;
-}
-
 .box {
 	width: 660px;
 	height: 100px;
